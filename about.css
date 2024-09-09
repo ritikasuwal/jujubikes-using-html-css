@@ -1,0 +1,153 @@
+
+.about{
+   background-image:url('');
+}
+.about h1{
+    margin-left:3vw;
+    color:#ee6e1a;
+    font-family:'Akaya Kanadaka';
+        font-size: 4vw;
+        line-height:4.4vw;   
+}
+.about1{
+    height: 100%;
+    width:100%;
+   display:flex;
+    }
+    span{
+        color:black;
+    }
+.about11 {
+    width:70%;
+    margin-left:15px;
+    font-size: 1.5vw;
+    text-align: center;
+    font-weight: 800;
+    color:black;
+    font-family:'Alta';
+}
+.about12{
+width:50%;
+margin-top:-7.0vw;
+}
+
+
+.about12 img{
+        width: 100%;
+        height:100%;
+        aspect-ratio: 16:9;
+        display:flex;
+        background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+ 
+    }
+    .about h2 , h3{
+        margin-left:3vw;
+        color:#ee6e1a;
+        font-size: 3vw;
+        font-family:'Akaya Kanadaka'; 
+    }
+    .abt2{
+        display:flex;
+        justify-content: space-between;
+    }
+    .photo{
+        align-items: center;
+        border-radius:50%;
+        width: 30%;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        overflow: hidden;
+        background-color:#ee6e1a;
+    }
+    .photo img {
+        width: 100%;
+        height: auto;
+      }
+    .abt2 h1{
+        margin-left:8vw;
+        color:black;
+        font-size: 2vw;
+        font-family:'Alta';
+    }
+    .abt3{
+        display:flex;
+    }
+    .abt3point1{
+        
+        width: 50%;
+        height:100%;
+        background-position: center;
+        background-repeat: no-repeat;
+          
+       }
+    .abt3point2{
+        height:100%;
+        width:auto%;
+        margin-right:15px;
+        font-size: 1.5vw;
+        text-align: center;
+        font-weight: 500;
+        color:black;
+        font-family:'Alta';
+    }
+
+    
+      
+
+
+
+@media (max-width:600px) {
+.about{
+    
+    margin-top:10vw;
+ }
+ .about h1{
+    
+     margin-left:5vw;
+     color:#c85103;
+     font-family:'Akaya Kanadaka';
+         font-size: 7vw;
+         line-height:4.4vw;   
+ }
+ .about11 {
+     width:70%;
+     margin-left:18px;
+     font-size: 3vw;
+     
+ }
+ .about12{
+ width:60%;
+ height:100%;
+ margin-top:5.0vw;
+ }
+ 
+
+     .about h2 , h3{
+         margin-left:4vw;
+         font-size: 5vw;
+          
+     }
+     
+     .abt2 h1{
+         font-size: 2.5vw; 
+     }
+     .abt3{
+        display:block;
+     }
+    
+     .abt3point2{
+         height:100%;
+         width:auto%;
+         margin-right:15px;
+         font-size: 2vw;
+         text-align: center;
+         font-weight: 800;
+         color:black;
+       
+     }
+ 
+     
+       
+    }
